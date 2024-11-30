@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:elevation="2dp"
+   >
+
+    <TextView
+        android:id="@+id/perfume_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfume Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/perfume_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfume Description"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/perfume_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="#6200EE" />
+
+    <Button
+        android:id="@+id/add_to_cart_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
